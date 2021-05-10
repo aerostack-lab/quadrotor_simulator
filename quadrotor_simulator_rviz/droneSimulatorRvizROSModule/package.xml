@@ -1,0 +1,32 @@
+<package>
+	<name>droneSimulatorRvizROSModule</name>
+	<version>1.0.0</version>
+	<description>
+    		This package is droneSimulatorRvizROSModule.
+	</description>
+	<author email="suarez.ramon@gmail.com">Ramon Suarez Fernandez</author>
+	<maintainer email="suarez.ramon@gmail.com">Ramon Suarez Fernandez</maintainer>
+  	<license>GPLv3</license>
+	<url>http://ros.org/wiki/droneSimulatorRvizROSModule</url>
+
+  	<buildtool_depend>catkin</buildtool_depend>
+
+
+  	<build_depend>roscpp</build_depend>
+	<build_depend>std_msgs</build_depend>
+	<build_depend>geometry_msgs</build_depend>
+	<build_depend>visualization_msgs</build_depend>
+	<build_depend>interactive_markers</build_depend>
+	<build_depend>droneMsgsROS</build_depend>
+
+	<run_depend>roscpp</run_depend>
+	<run_depend>std_msgs</run_depend>
+	<run_depend>geometry_msgs</run_depend>
+	<run_depend>visualization_msgs</run_depend>
+	<run_depend>interactive_markers</run_depend>
+	<run_depend>droneMsgsROS</run_depend>
+
+
+</package>
+
+

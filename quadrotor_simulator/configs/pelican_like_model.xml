@@ -1,0 +1,24 @@
+<pelican_like_model>
+	<yaw_dynamics>
+		<DYAW_SCALE> 8.0350 </DYAW_SCALE>		<!-- counts/(deg/s) -->
+		<Tp_Y> 	     0.5000 </Tp_Y>		<!-- seconds -->
+		<Zeta_Y>     0.8000 </Zeta_Y>		<!-- adim    -->
+	</yaw_dynamics>
+	<pitch_roll_dynamics>
+		<PITCH_SCALE> 40   </PITCH_SCALE>		<!-- counts/deg     -->
+		<Tp_P>        0.10 </Tp_P>		<!-- seconds -->
+		<ROLL_SCALE>  40   </ROLL_SCALE>		<!-- counts/deg     -->
+		<Tp_R>        0.10 </Tp_R>		<!-- seconds -->
+	</pitch_roll_dynamics>
+	<vertical_dynamics>
+		<THRUST_SCALE> 127.9688 </THRUST_SCALE>		<!-- counts/N       -->
+		<Tth>          0.050    </Tth>			<!-- seconds -->
+		<m>            2.110     </m>			<!-- kg      -->
+		<vzmax>        4.0      </vzmax>		<!-- m/s     -->
+	</vertical_dynamics>
+	<horizontal_dynamics>
+		<ki>  0.1215 </ki>
+		<ci>  4.0    </ci>
+		<ktr> 2.0    </ktr>
+	</horizontal_dynamics>
+</pelican_like_model>
